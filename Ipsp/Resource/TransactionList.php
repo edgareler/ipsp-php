@@ -1,4 +1,7 @@
 <?php
+
+namespace Ipsp\Resource;
+
 /**
  * Class Ipsp_Transaction_List
  */

@@ -1,5 +1,7 @@
 <?php
 
+namespace Ipsp\Resource;
+
 /**
  * Class Ipsp_Resource_PaymentPcidss
  */

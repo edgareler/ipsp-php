@@ -1,5 +1,7 @@
 <?php
 
+namespace Ipsp;
+
 class Ipsp_XmlData extends \SimpleXMLElement{
     /**
      * @param array $array

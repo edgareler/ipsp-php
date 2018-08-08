@@ -1,0 +1,8 @@
+{
+    "name": "cloudipsp/ipsp-php",
+    "autoload": {
+        "psr-4" : {
+            "Ipsp\\" : "."
+        }
+    }
+}

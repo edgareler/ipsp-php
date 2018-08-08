@@ -1,5 +1,8 @@
 <?php
 
+namespace Ipsp;
+
+
 /**
  * Class Ipsp_Api
  */

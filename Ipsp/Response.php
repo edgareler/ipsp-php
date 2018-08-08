@@ -1,5 +1,7 @@
 <?php
 
+namespace Ipsp;
+
 /**
  * Class Ipsp_Response
  */
@@ -62,7 +64,7 @@ class Ipsp_Response
     public function isCaptured()
     {
         $data = $this->getCapturedTransAction();
-	
+
         if (!array_key_exists('capture_status', $data)) throw new \Exception('invalid response');
         return $data['capture_status'] != 'captured' ? false : true;
     }

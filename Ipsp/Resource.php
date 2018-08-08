@@ -1,5 +1,7 @@
 <?php
 
+namespace Ipsp;
+
 /**
  * Class Ipsp_Resource
  */
